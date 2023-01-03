@@ -2,6 +2,7 @@
     height: 270px;
     margin: auto;
     width: 270px;
+    margin-top: 100px;
 }
 
 .pixelart-to-css {
@@ -75,12 +76,12 @@
 
   .btn-section {
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    justify-content: center;
 
   }
 
   .btn {
+    display: inline-block;
     width: 140px;
     height: 40px;
     margin: 10px;
@@ -90,9 +91,6 @@
     font-size: 16px;
     font-weight: 600;
     background-color: rgb(235, 235, 235);
-  }
-
-  .btn-green {
   }
 
   .btn:hover {
